@@ -25,13 +25,13 @@ a {
 
 @media (max-width: 499px) {
   body {
-    background-color: white;
+    background-color: pink;
   }
 }
 
 @media (min-width: 500px) and (max-width: 800px) {
   body {
-    background-color: green;
+    background-color: blue;
   }
 }
 @media (min-width: 801px) {
