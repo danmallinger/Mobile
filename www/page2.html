@@ -1,8 +1,25 @@
-<html>
- <head>
-  <title>Page 2</title>
- </head>
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Store</title>
+ <script src="js/jquery-1.9.1.min.js"></script>
+ <script src="js/store.js"></script>
 
-OUCH!
+ <script> 
+  $( document ).ready(function() {
+    $( '#save' ).click(save);
+    $( '#list' ).click(list_in_table);
+    $( '#clear').click(clear);
+   });
+ </script>
+</head>
+<body>
 
+English: <input id="key" type="text" autofocus>
+Spanish: <input id="value" type="text">
+<input type="submit" id="save" value="Save">
+<input type="submit" id="list" value="List">
+<input type="submit" id="clear" value="Clear">
+<div id="response"></div>
+
+</body>
 </html>
