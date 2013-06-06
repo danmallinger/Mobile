@@ -1,0 +1,28 @@
+<html>
+ <head>
+ <title>This is a test</title>
+ <link rel="stylesheet" href="css/default.css" />
+
+ <script language="javascript" type="text/javascript">
+  function repeat() {
+  document.getElementById("dummy").innerHTML=
+    "You said: " + document.getElementById("typed").value; 
+  }
+ </script>
+
+ </head>
+ 
+ <body>
+ 
+ Type Something:<br>
+ <input type="input" name="typed" id="typed">
+ <br><br>
+
+ Then put your finger <a href="#" onclick="repeat(); return false;">&nbsp;here.&nbsp;</a><br><br>
+
+<div id="dummy"></div> 
+
+<a href="page2.html">&nbsp;To Page 2&nbsp;</a>
+
+</body>
+</html>
