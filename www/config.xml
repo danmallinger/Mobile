@@ -4,7 +4,7 @@
     id        = "com.fundsxpress.mallinger.daniel.example"
     versionCode="5"
     version   = "0.0.5">
-  <name>DanMobileApp</name>
+  <name>DanApp</name>
   <description>
     Mobile Application Examples
   </description>
